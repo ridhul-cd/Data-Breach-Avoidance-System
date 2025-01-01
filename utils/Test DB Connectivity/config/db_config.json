@@ -1,0 +1,10 @@
+{
+    "Driver": "{ODBC Driver 17 for SQL Server}",
+    "ServerName": "devdbinstance01.database.windows.net",
+    "DatabaseName": "MyBankCardsManager",
+    "UserID": "ServerAdminPro",
+    "Password": "S3cure#Adm!nPr0",
+    "Encrypt": "yes",
+    "TrustServerCertificate": "no",
+    "ConnectionTimeout": 130
+}

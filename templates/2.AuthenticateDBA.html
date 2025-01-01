@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>DBA Authentication</title>
+<link rel="stylesheet" href="{{ url_for('static',filename='styles/2.AuthenticateDBA/style.css') }}">
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="wrapper">
+	<div class="container">
+		<h1>Welcome DBA!</h1>
+		
+		<form class="form" action="http://localhost:7000/MyBankCardsManager/ProcessDBAdata" method ="get">
+			<input type="text" placeholder="DBA Code" name="DBACode">
+			<input type="password" placeholder="Password" name="Password">
+			<button type="submit" id="login-button" onclick="http://localhost:7000/MyBankCardsManager/ProcessDBAdata">Authenticate</button>
+		</form>
+	</div>
+	
+	<ul class="bg-bubbles">
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+	</ul>
+</div>
+<!-- partial -->
+
+<script type="text/javascript" src="{{ url_for('static', filename = 'scripts/2.AuthenticateDBA/script.js') }}"></script>
+</body>
+</html>
